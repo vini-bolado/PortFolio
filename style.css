@@ -180,7 +180,8 @@ section.landing .socials{
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
-    margin-top: 5rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
 }
 
 section.landing .socials a{
@@ -189,7 +190,7 @@ section.landing .socials a{
     background: whitesmoke;
     color: #000;
     padding: 0.3rem;
-    border-radius: 400px;
+    border-radius: 20%;
     height: 2rem;
     height: 2rem;
     display: flex;
@@ -323,8 +324,10 @@ section.about{
         grid-template-columns: 26rem auto ;
         gap: 5rem;
 
+
     }
   
+
 
     section.about p{
 
@@ -587,7 +590,7 @@ section.contact form .btn:hover{
 
 footer{
 
-    padding-top: 5rem;
+    padding-top: 2rem;
 
 }
 
@@ -596,6 +599,7 @@ footer .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 2rem;
 
 }
 
@@ -629,9 +633,10 @@ footer .container .socials a{
 
     background-color: whitesmoke;
     color: black;
-    padding: 0.3rem;
+    padding: 1rem;
     border-radius: 50%;
     transition: 1s;
+    
 
 }
 footer .container .socials a:hover{
@@ -641,16 +646,6 @@ footer .container .socials a:hover{
 }
 
 
-footer .copyrigth{
-
-    background: pink;
-    color: white;
-    text-align: center;
-    margin-top: 5rem;
-    padding: 2rem 0;
-    font-size: 1rem;
-
-}
 
 /* !------------------------ FIM DO FOOTER ---------------------------------------- */
 
